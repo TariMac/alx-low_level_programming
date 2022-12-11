@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a randomly
- * generated number and whether it is greater
- * than 5, less than 5, or 0.
+ * main - Main block
+ * Description: prints a random number, checks its last digit, compares it with 5.
  * Return: Always 0.
  */
 
 int main(void)
 {
 	int n;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
