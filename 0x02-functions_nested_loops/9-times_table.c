@@ -15,10 +15,10 @@ void times_table(void)
 		for (column = 0; column <= 9; column++)
 		{
 			product = row * column;
-			tens = roducts/ 10;
+			tens = products/ 10;
 			ones = product % 10;
 
-			if column (column == 0)
+			if (column == 0)
 			{
 				_putchar('0');
 			}
